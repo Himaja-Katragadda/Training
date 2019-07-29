@@ -1,5 +1,6 @@
 public without sharing class LeadScoreGenerator {
     public static Boolean isDecisionMaker(String title){
+        System.debug('This is a print statement');
         List<String> decisionMakerTitles = new List<String>{'CEO','CMO','CFO','CTO','COO','EVP','SVP','VP'};
             if(decisionMakerTitles.contains(title)){
                 return true;
